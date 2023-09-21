@@ -4,10 +4,10 @@
 const themeKey = 'currentThemeId';
 
 const themeList = [
+	'fluent.blue.light',
+	'fluent.blue.light.compact',
+	'fluent.blue.dark',
 	'fluent.blue.dark.compact',
-    'fluent.blue.dark',
-    'fluent.blue.light.compact',
-    'fluent.blue.light',
 
     'light',
     'light.compact',
