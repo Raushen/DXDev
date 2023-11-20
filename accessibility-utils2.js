@@ -34,4 +34,4 @@ function sendMessageToAssistiveTechnology(message) {
         window.dxAccessibilityHelper = new AccessibilityHelper();
     window.dxAccessibilityHelper.sendMessageToAssistiveTechnology(message);
 }
-exports.sendMessageToAssistiveTechnology = sendMessageToAssistiveTechnology;
+
