@@ -1,12 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.sendMessageToAssistiveTechnology = void 0;
-function sendMessageToAssistiveTechnology(message) {
-    if (!window.dxAccessibilityHelper)
-        window.dxAccessibilityHelper = new AccessibilityHelper();
-    window.dxAccessibilityHelper.sendMessageToAssistiveTechnology(message);
-}
-exports.sendMessageToAssistiveTechnology = sendMessageToAssistiveTechnology;
+
 var AccessibilityHelper = /** @class */ (function () {
     function AccessibilityHelper() {
         this._helperElement = null;
@@ -35,3 +28,10 @@ var AccessibilityHelper = /** @class */ (function () {
     };
     return AccessibilityHelper;
 }());
+
+function sendMessageToAssistiveTechnology(message) {
+    if (!window.dxAccessibilityHelper)
+        window.dxAccessibilityHelper = new AccessibilityHelper();
+    window.dxAccessibilityHelper.sendMessageToAssistiveTechnology(message);
+}
+exports.sendMessageToAssistiveTechnology = sendMessageToAssistiveTechnology;
