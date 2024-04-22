@@ -1,5 +1,4 @@
-export default {
-  tzList: [
+const tzList = [
     'Etc/GMT+12',
     'Etc/GMT+11',
     'Pacific/Midway',
@@ -595,5 +594,4 @@ export default {
     'Pacific/Tongatapu',
     'Etc/GMT-14',
     'Pacific/Kiritimati',
-  ],
-};
+  ];
